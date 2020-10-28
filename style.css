@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive ;
+}
+h1{
+    margin-top 0;
+    font-family: 'Henny Penny', cursive;
+    color: #a4b787;
+    font-size: 90px;
+}
+h2,
+h3{
+    font-family:  'Syne Tactile', cursive;
+    
+    color: #a4b787;
+}
+h2{
+    font-size: 40px;
+}
+.container-top{
+    position: relative;
+    padding-top: 100px;
+    border: 10px solid black;
+    padding: 20px;
+    background-color:#aa3a3a;
+}
+.container-top h2 span{
+    text-decoration: underline;
+}
+
+
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right:300px;
+
+}
+.bottom-cloud{
+    position:absolute;
+    bottom:300px;
+    left: 300px;
+}
+.profile{
+    
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+.profile p {
+    line-height: 2;
+}
+.profile img{
+    width: 40%;
+}
+.skills{
+    padding-top:100px;
+    line-height: 2;
+}
+.skill-row{
+    text-align:left;
+    width: 50%;
+    margin: 100px auto;
+}
+.skill-photo1{
+    margin-right: 5px;
+    float: left;
+    width: 25%;
+
+}
+.skill-photo2{
+    float: right;
+    width: 25%;
+    margin-right: 30px;
+
+}
+.contact-me{
+    width: 40%;
+    margin: 100px auto;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+}
+.contact-me .btn{
+    background-color: #495464;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.container-bottom{
+    padding: 50px 0;
+    background-color:  #495464;
+
+}
+.container-bottom a{
+    font-size: 20px;
+    margin: 0 15px;
+}
+.container-bottom a{
+    color: white;
+    margin-top: 50px;
+}
